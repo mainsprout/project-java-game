@@ -106,13 +106,11 @@ addKeyListener(new KeyAdapter() {
 
 ### 2. 그림판
 
-![Image](https://github.com/user-attachments/assets/374aa5d4-c8f3-4349-b9f4-18cd479a5e98)
-![Image](https://github.com/user-attachments/assets/3ab8785f-d214-4db1-b874-153ec1c2b5f9)
 ![마우스가 그림판 위에 올라가기 전](https://github.com/user-attachments/assets/374aa5d4-c8f3-4349-b9f4-18cd479a5e98)
 
 마우스가 그림판 위에 올라가기 전
 
-![마우스가 그림판 위로 올라간 후](https://prod-files-secure.s3.us-west-2.amazonaws.com/e975e76a-cf5c-4404-816c-b88719d65c34/80bbffc6-e98e-4505-8fc8-f07cd5a6298e/Untitled.png)
+![마우스가 그림판 위로 올라간 후](https://github.com/user-attachments/assets/3ab8785f-d214-4db1-b874-153ec1c2b5f9)
 
 마우스가 그림판 위로 올라간 후
 
