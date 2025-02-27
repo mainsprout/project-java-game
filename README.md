@@ -13,7 +13,7 @@
 
 프로젝트를 실행시키면 뜨는 초기화면은 아래와 같다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e975e76a-cf5c-4404-816c-b88719d65c34/452867f8-3d4d-45ac-875a-175f106d26f0/Untitled.png)
+![Image](https://github.com/user-attachments/assets/50ddcb62-065e-417c-af70-ef67d3eed0cc)
 
 초기화면에는 총 2가지 버튼이 있다.
 
