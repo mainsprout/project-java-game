@@ -107,12 +107,11 @@ addKeyListener(new KeyAdapter() {
 ### 2. 그림판
 
 ![마우스가 그림판 위에 올라가기 전](https://github.com/user-attachments/assets/374aa5d4-c8f3-4349-b9f4-18cd479a5e98)
-
 마우스가 그림판 위에 올라가기 전
 
 ![마우스가 그림판 위로 올라간 후](https://github.com/user-attachments/assets/3ab8785f-d214-4db1-b874-153ec1c2b5f9)
-
 마우스가 그림판 위로 올라간 후
+
 
 마우스로 그림판을 클릭하면, 그림을 그릴 수 있다. 
 
@@ -145,7 +144,7 @@ addKeyListener(new KeyAdapter() {
             }
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e975e76a-cf5c-4404-816c-b88719d65c34/384e64d8-b808-45ad-bab3-4ecd2dcaba9f/Untitled.png)
+![Image](https://github.com/user-attachments/assets/c7c2c543-2333-4cb0-b9aa-b0ac1a906eb3)
 
 - `penButton` : canvas에 그림을 그릴 수 있는 도구이다. 먼저 펜을 선택하고, 색깔을 선택하면 그림을 그릴 수 있다. 둘 중 하나라도 선택되지 않았더라면 경고 창이 뜬다.
     - `ToolButtonListener` 를 ActionListener로 가진다. ToolButton은 button의 ToolTipText를 type으로 설정해준다.
@@ -171,7 +170,7 @@ addKeyListener(new KeyAdapter() {
 - `colorPalette` : 기본적으로 7가지의 색깔이 JButton으로 추천하고 있다. 또한 moreColor 버튼을 눌러서 더 많은 다른 색을 고를 수도 있다.
     - moreColor 버튼을 누르면 JColorChooser을 화면에 띄워주고, 이로 인해 색을 바꿀 수 있다.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e975e76a-cf5c-4404-816c-b88719d65c34/0815c71a-e6b0-4e32-b308-ec83026b849f/Untitled.png)
+    ![Image](https://github.com/user-attachments/assets/8db5433a-bc5a-4e7b-83bc-b9d87195fc7d)
     
 
 - `SAVE` : 현재까지 그린 그림을 저장할 수 있다. 그림은 게임 내 gallery에 저장된다.
@@ -284,12 +283,10 @@ public static void newPaintSave(Image img){ //저장할 그림을 변수로 받�
 ...
 ```
 
-![갤러리](https://prod-files-secure.s3.us-west-2.amazonaws.com/e975e76a-cf5c-4404-816c-b88719d65c34/e7d7c2d1-7cfd-4f4e-8565-843ecf595b19/Untitled.png)
-
+![Image](https://github.com/user-attachments/assets/73d5cb82-fd57-48fd-88a9-c2667174e11f)
 갤러리
 
-![그림 전시](https://prod-files-secure.s3.us-west-2.amazonaws.com/e975e76a-cf5c-4404-816c-b88719d65c34/2f2f6ef2-61d6-4c7a-809c-67652c8cd8bd/Untitled.png)
-
+![Image](https://github.com/user-attachments/assets/af12aa57-71a4-45f0-ad35-ef0eb56d8a36)
 그림 전시
 
 갤러리에 저장된 그림은 담벼락에 전시하는 것이 가능하다.
@@ -317,12 +314,10 @@ public void mouseClicked(MouseEvent e) {
 
 NPC는 총 2명이 존재한다. NPC들은 모두 그림을 원하며, 캐릭터가 그린 그림을 전달해줄 수 있다. 이 NPC들 전부에게 그림을 가져다주었는지로 엔딩이 판가름난다.
 
-![고양이](https://prod-files-secure.s3.us-west-2.amazonaws.com/e975e76a-cf5c-4404-816c-b88719d65c34/ec8b4dca-3a8c-47c0-8155-59abee5628db/Untitled.png)
-
+![Image](https://github.com/user-attachments/assets/d026a23b-9260-471b-8002-fb0724e7b4b3)
 고양이
 
-![남자](https://prod-files-secure.s3.us-west-2.amazonaws.com/e975e76a-cf5c-4404-816c-b88719d65c34/1a21a7f3-4ea6-49a0-b8b8-441eb95306c0/Untitled.png)
-
+![Image](https://github.com/user-attachments/assets/b0f9b15c-149a-4e73-b1f0-3c10730e15ee)
 남자
 
 1) 고양이
